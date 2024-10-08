@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget {
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.w500,
-              color: Color.fromARGB(255, 112, 60, 42),
+              color: Colors.brown,
             ),
           ),
           centerTitle: true,
-          backgroundColor: const Color.fromARGB(255, 176, 207, 233),
+          backgroundColor: Colors.blue,
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Container(
               height: 200,
