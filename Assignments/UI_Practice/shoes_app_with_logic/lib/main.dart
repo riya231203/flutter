@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
                 fit: BoxFit.fill,
               ),
             ),
-            SizedBox(
+           const SizedBox(
               child: Text(
                 "Nike Air Force 1 ''07",
                 style: TextStyle(
