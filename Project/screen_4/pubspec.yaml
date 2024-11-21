@@ -1,0 +1,38 @@
+name: screen_4
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/copies.svg
+    - assets/filee.svg
+    - assets/th.svg
+    - assets/venn.svg
+    - assets/rgb.svg
+    - assets/portrait.svg
+    - assets/landscape.svg
+    - assets/cart.svg
+    - assets/note.svg
+    - assets/upi.svg
+    - assets/upi1.svg
+    - assets/upi2.svg
+    - assets/gpay.svg
+    - assets/phonepe.svg
+    - assets/paytm.svg
+    - assets/bhim.svg
+    - assets/order.svg
